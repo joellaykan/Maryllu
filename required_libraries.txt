@@ -1,0 +1,7 @@
+wikipedia
+gtts
+wheel
+playsound
+pyfiglet
+termcolor
+file_search
