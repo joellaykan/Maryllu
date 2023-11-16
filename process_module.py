@@ -19,7 +19,7 @@ def process(query):
     if answer == "get time details":
         return ("Time is " + get_time())
 
-    elif answer == "check internet connection":
+    elif answer == "check internet":
         if check_internet_connection():
             return "Internet is connected"
         else:

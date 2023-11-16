@@ -5,3 +5,6 @@ playsound
 pyfiglet
 termcolor
 file_search
+
+
+# pip install git+https://github.com/killjoy1221/playsound.git
