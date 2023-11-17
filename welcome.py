@@ -19,18 +19,18 @@ def greet():
 
 
     if previous_date == today_date:
-        output("Welcome back sir")
+        output("Welcome back!")
     
     else:
         hour = int(get_hours())
 
         if hour >= 4 and hour<12:
-            output("Good Morning, sir ")
+            output("Good Morning!")
 
         elif hour>=12 and hour < 16 :
-            output("Good After Noon, sir")
+            output("Good Afternoon!")
 
         else:
-            output("goood evening , sir")        
+            output("Good Evening!")        
 
 

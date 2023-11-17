@@ -8,7 +8,7 @@ def take_input():
   
             
     #command line input
-    i = input('(Write something) -> ')
+    i = input('(Write something here) -> ').lower()
     line_sep()
 
     return i

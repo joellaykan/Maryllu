@@ -101,11 +101,11 @@ def process(query):
 
                 value = get_answer_from_memory(ans)
                 if value == "":
-                    return "Can't help with this one "
+                    return "Can't help with this one"
                 
                 else:
                     insert_question_and_answer(query, value)
-                    return "Thanks I will remember it for the next time"
+                    return "Thanks, I will remember it for the next time"
             
             else:
                 return "Can't help with this one"
